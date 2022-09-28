@@ -7,7 +7,7 @@
 
 int main()
 {
-	int a[3];
+	int a[3]; // create array with 3 elements
 	int* p;
 
 	a[0] = 4;
@@ -17,17 +17,17 @@ int main()
 
 	// Why can we write the following line?
 	// Because array points to stuff too?
-	p = a;
+	p = a; // will point to object at a[0]
 
 	printf("What is *p? It is %d \n", *p);
 
-	p = a + 1;
+	p = a + 1; // will point to object at a[1]
 	printf("What is *p? It is %d \n", *p);
 
-	p = a + 2;
+	p = a + 2; // will point to object at a[2]
 	printf("What is *p? It is %d \n", *p);
 
-	p = p - 2;
+	p = p - 2; // will point back to a[0]
 	printf("What is *p? It is %d \n", *p);
 
 }
