@@ -1,5 +1,5 @@
-// PointersAndArrayExample.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Classwork 9/26/22 - Systems Programming
+// Example of using pointers to point to array
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
